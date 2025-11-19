@@ -127,7 +127,7 @@ if uploaded_file:
         display_df = df
 
     # Pagination
-    ITEMS_PER_PAGE = 12
+    ITEMS_PER_PAGE = 25
     total_items = len(display_df)
     total_pages = math.ceil(total_items / ITEMS_PER_PAGE)
     if 'current_page' not in st.session_state: st.session_state.current_page = 1
