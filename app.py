@@ -79,7 +79,7 @@ def get_ai_column_map(columns_list):
     """Uses Gemini to shorten column names to standard keys."""
     try:
         # CHANGED: Try 'gemini-pro' which is the most widely available model
-        model = genai.GenerativeModel('gemini-pro') 
+        model = genai.GenerativeModel('gemini-2.5-pro') 
         
         # ... rest of the function remains the same ...
 
