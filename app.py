@@ -78,7 +78,9 @@ load_custom_css()
 def get_ai_column_map(columns_list):
     """Uses Gemini to shorten column names to standard keys."""
     try:
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        # CHANGED: Try 'gemini-pro' which is the most widely available model
+        model = genai.GenerativeModel('gemini-2.5-flash') 
+
         prompt = f"""
         I have a list of column headers from a Google Form. 
         Map EVERY single header to a short, human-readable, Title Case name (max 3 words).
