@@ -5,7 +5,7 @@ import json
 import math
 
 # --- CONFIGURATION ---
-st.set_page_config(layout="wide", page_title="Community Directory", page_icon="⚡")
+st.set_page_config(layout="wide", page_title="Community Directory", page_icon="📂")
 
 # --- Add API KEY ---
 API_KEY = "AIzaSyDHN8h0W5ZsF8ywgLZXUiwL0cz9k-b0WkE" 
