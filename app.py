@@ -99,7 +99,7 @@ def show_profile(row, name_col, img_col):
         st.markdown(f"<div class='data-bubble'><div class='data-label'>{col}</div><div class='data-value'>{display_val}</div></div>", unsafe_allow_html=True)
 
 # --- MAIN APP ---
-st.title("⚡ Fast Community Directory")
+st.title("📂 Community Directory")
 uploaded_file = st.file_uploader("Upload CSV", type=['csv'])
 
 if uploaded_file:
